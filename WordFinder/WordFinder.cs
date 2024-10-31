@@ -24,7 +24,7 @@ namespace WordFinderApp
         //      [ a b c ]
         //      [ d e f ]
         //      [ g h i ]
-        // Matrix can be NxM, no need for it to bee NxN
+        // Matrix can be NxM, no need for it to be NxN
         public WordFinder(IEnumerable<string> matrix) 
         {
             Console.WriteLine($"Started Setting up matrix");
@@ -60,7 +60,7 @@ namespace WordFinderApp
         /// Give a list of words as imputs, find those that exists in the constructor matrix, and returns those with highest count.
         /// </summary>
         /// <param name="wordstream">List of words to find their ocurrence count</param>
-        /// <returns>Returns the words with the most counts. <see cref="_numberOfResults"/> for the number of results</returns>
+        /// <returns>Returns the words with the most counts. <see cref="NUMBER_OF_RESULTS"/> for the number of results</returns>
         public IEnumerable<string> Find(IEnumerable<string> wordstream)
         {
             Console.WriteLine($"Started finding the words");
